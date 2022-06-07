@@ -1,3 +1,3 @@
-enum EStoreTypes {
-    TEST = 'TEST',
+export enum EStoreTypes {
+    TEST = "TEST",
 }

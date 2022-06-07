@@ -1,11 +1,11 @@
-import { defineStore } from 'pinia';
-import EStoreTypes from '../constants';
+import { defineStore } from "pinia";
+import { EStoreTypes } from "../constants";
 
-const useTestStore = defineStore(EStoreTypes.TEST, {
+export const useTestStore = defineStore(EStoreTypes.TEST, {
     state: () => {
         return {
             counter: 0,
-            name: 'Eduardo',
+            name: "Eduardo",
             isAdmin: true,
         }
     },

@@ -1,0 +1,9 @@
+{
+  "name": "_store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pinia": "^2.0.14"
+  }
+}

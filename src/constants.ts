@@ -1,0 +1,3 @@
+enum EStoreTypes {
+    TEST = 'TEST',
+}

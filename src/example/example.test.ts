@@ -17,6 +17,6 @@ describe("Counter Store", () => {
 	it("test getter doubleCount", () => {
 		const store = useTestStore()
 		store.increment()
-		expect(store.doubleCount).toBe(2)
+		expect(store.getDoubleCount).toBe(2)
 	})
 })

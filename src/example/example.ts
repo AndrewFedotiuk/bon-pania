@@ -11,7 +11,8 @@ export const useTestStore = defineStore(EStoreTypes.TEST, {
 	},
 	getters: {
 		getCounter: (state) => state.counter,
-		doubleCount: (state) => state.counter * 2,
+		getDoubleCount: (state) => state.counter * 2,
+		getUserName: (state) => state.name
 	},
 	actions: {
 		increment() {
